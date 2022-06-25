@@ -37,4 +37,13 @@ Bu durumda extend daha önce yürütülür.
 
 ## 2
 
+### Internal
+
+Javada internal in olmadığını gördüm. Ancak benzer
+kullanım için aşağıya bulduğum örneği bırakıyorum.
+
+[ÖRNEK](http://www.javacamp.org/javavscsharp/internal.html)
+
 ## 3
+
+### Abstract

@@ -10,7 +10,7 @@
 
 ## 1
 
-### Hem Extend Hem Implement Etmek
+### :pushpin: Hem Extend Hem Implement Etmek
 
 Bir class sadece bir class'ı extend edebilir.
 Ancak aynı anda bir class’ı extend edip bir veya
@@ -37,7 +37,7 @@ Bu durumda extend daha önce yürütülür.
 
 ## 2
 
-### Internal
+### :pushpin: Internal
 
 Javada internal in olmadığını gördüm. Ancak benzer
 kullanım için aşağıya bulduğum örneği bırakıyorum.
@@ -46,4 +46,18 @@ kullanım için aşağıya bulduğum örneği bırakıyorum.
 
 ## 3
 
-### Abstract
+### :pushpin: Abstract
+
+Inheritance ile bir üst class tanımlayabiliyorduk,
+burda özelliklerimiz ve metodlarımız olabiliyordu.
+Alt classları burdan türeterek bu özellikleri ve
+metodları miras alabiliyorduk.
+Interface ile gövdesiz metodlarımızı yazıyorduk ve
+bunu implement eden tüm alt classlarda bunları
+kendimize göre yazabiliyorduk.
+
+**Abstract classlar inheritance ve interface
+classların birleşimi gibi düşünülebilir. Abstract
+classlarda özelliklerimizi, metodlarımızı
+yazabiliyoruz. Ve aynı zamanda gövdesiz metodlarımızı
+yazabiliriz.**

@@ -61,3 +61,65 @@ classların birleşimi gibi düşünülebilir. Abstract
 classlarda özelliklerimizi, metodlarımızı
 yazabiliyoruz. Ve aynı zamanda gövdesiz metodlarımızı
 yazabiliriz.**
+
+Abstract(soyutlama) kavramı sınıfın içindeki iç
+işleyişi dışarıdan izole etmek, yani gizlemektir.
+Örneğin: bilgisayarı kullanırken çoğu kullanıcı
+bilgisayarın iç işleyişinden haberi olmaz.
+
+```Java
+public abstract class Aclass {
+
+    protected double xVar;
+    protected double[] yVar;
+
+    public double[] getyVar() {
+        return yVar;
+    }
+
+    public void setyVar(double[] yVar) {
+        this.yVar = yVar;
+    }
+
+    public double getxVar() {
+        return xVar;
+    }
+
+    public void setxVar(double xVar) {
+        this.xVar = xVar;
+    }
+
+    // SOYUT METOD ÖRNEĞİ
+    public abstract double method1();
+}
+```
+
+```JAVA
+public class SubAclassOne extends Aclass {
+
+    public Method1Aclass(double xVar) {
+        super.setxVar(xVar);
+    }
+
+    @Override
+    public double method1() {
+
+        return super.getxVar() + super.getxVar() * 0.5;
+    }
+}
+
+public class SubAclassTwo extends Aclass {
+
+    public UpdateAclass(double xVar, double[] yVar) {
+        super.setxVar(xVar);
+        super.setyVar(yVar);
+    }
+
+
+    @Override
+    public double method1() {
+        //
+        //
+    }
+}
+```

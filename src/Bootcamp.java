@@ -1,3 +1,5 @@
+package src;
+
 public abstract class Bootcamp {
 
     private String name;

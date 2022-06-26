@@ -1,3 +1,7 @@
+package src;
+
+import src.Teacher;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("M.K.M");

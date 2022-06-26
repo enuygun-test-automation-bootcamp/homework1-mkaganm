@@ -1,3 +1,5 @@
+package src;
+
 public class Assistant extends Bootcamp {
 
     // yapıcı fonksiyon

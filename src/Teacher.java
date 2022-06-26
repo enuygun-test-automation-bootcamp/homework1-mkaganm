@@ -1,3 +1,5 @@
+package src;
+
 public class Teacher extends Bootcamp {
 
     // yapıcı fonksiyon

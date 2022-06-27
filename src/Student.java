@@ -17,6 +17,7 @@ public class Student extends Bootcamp {
         System.out.println("........");
     }
 
+    // abstract classtan gelen metodu override ettik
     @Override
     public void homework(String homeworkInfo) {
         System.out.println("Student is doing homework..." + homeworkInfo);
